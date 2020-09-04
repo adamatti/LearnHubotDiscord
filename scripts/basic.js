@@ -1,6 +1,4 @@
 module.exports = robot => {
-    console.log("Bot started")
-
     robot.respond(/\w/, res => {
         const responses = [
             "Não endendi",
